@@ -1,0 +1,33 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "native-poppler",
+      "displayName": "Native Linux (poppler backend)",
+      "description": "Build libjbigdec.so + libjbig2codec.so using libpoppler",
+      "binaryDir": "${sourceDir}/build",
+      "cacheVariables": {
+        "JBIG2_BACKEND": "poppler"
+      }
+    },
+    {
+      "name": "native-jbig2dec",
+      "displayName": "Native Linux (jbig2dec backend)",
+      "description": "Build libjbigdec.so + libjbig2codec.so using libjbig2dec",
+      "binaryDir": "${sourceDir}/build",
+      "cacheVariables": {
+        "JBIG2_BACKEND": "jbig2dec"
+      }
+    },
+    {
+      "name": "cross-win64-jbig2dec",
+      "displayName": "Cross-compile Windows x86_64 (jbig2dec backend)",
+      "description": "Cross-compile DLLs for Windows via MinGW-w64",
+      "binaryDir": "${sourceDir}/build-win64",
+      "toolchainFile": "${sourceDir}/cmake/toolchain-mingw-w64-x86_64.cmake",
+      "cacheVariables": {
+        "JBIG2_BACKEND": "jbig2dec"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[project]
+name = "caj2pdf"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "imagesize>=2.0.0",
+    "pypdf2>=3.0.1",
+]

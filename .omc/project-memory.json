@@ -1,0 +1,243 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1777717039132,
+  "projectRoot": "/home/cc/repo/caj2pdf",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Python",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "requirements.txt"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "pip",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "lib"
+    ],
+    "gitBranches": {
+      "defaultBranch": "master",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "__pycache__": {
+      "path": "__pycache__",
+      "purpose": null,
+      "fileCount": 4,
+      "lastAccessed": 1777717039129,
+      "keyFiles": [
+        "cajparser.cpython-313.pyc",
+        "cajparser.cpython-314.pyc",
+        "utils.cpython-313.pyc",
+        "utils.cpython-314.pyc"
+      ]
+    },
+    "cajs": {
+      "path": "cajs",
+      "purpose": null,
+      "fileCount": 14,
+      "lastAccessed": 1777717039130,
+      "keyFiles": [
+        "农田土壤-植物-大气连续体多源数据融合及作物生长模拟研究_余丹阳.caj",
+        "基于产量构成因子的甘蔗遥感估产方法研究_冯娟娟.caj",
+        "基于多元数据的甘蔗产量预报_陶伟.caj",
+        "基于多源卫星遥感影像的广西中南部地区甘蔗识别及产量预测_罗维.caj",
+        "基于多源数据的稻蔗作物关键生长时期监测模型研究_孙吉红.caj"
+      ]
+    },
+    "lib": {
+      "path": "lib",
+      "purpose": "Library code",
+      "fileCount": 5,
+      "lastAccessed": 1777717039131,
+      "keyFiles": [
+        "JBigDecode.cc",
+        "JBigDecode.h",
+        "decode_jbig2data.cc",
+        "decode_jbig2data_x.cc",
+        "jbigdec.cc"
+      ]
+    },
+    "lib/bin": {
+      "path": "lib/bin",
+      "purpose": "Executable scripts",
+      "fileCount": 4,
+      "lastAccessed": 1777717039131,
+      "keyFiles": [
+        "libjbig2codec-w32.dll",
+        "libjbig2codec-w64.dll",
+        "libjbigdec-w32.dll"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "README.md",
+      "accessCount": 5,
+      "lastAccessed": 1777724469339,
+      "type": "file"
+    },
+    {
+      "path": "pdfwutils.py",
+      "accessCount": 4,
+      "lastAccessed": 1777717968567,
+      "type": "file"
+    },
+    {
+      "path": "jbig2dec.py",
+      "accessCount": 4,
+      "lastAccessed": 1777719413793,
+      "type": "file"
+    },
+    {
+      "path": "lib/jbigdec.cc",
+      "accessCount": 4,
+      "lastAccessed": 1777719413824,
+      "type": "file"
+    },
+    {
+      "path": "jbigdec.py",
+      "accessCount": 4,
+      "lastAccessed": 1777719413862,
+      "type": "file"
+    },
+    {
+      "path": "lib/JBigDecode.h",
+      "accessCount": 4,
+      "lastAccessed": 1777719413893,
+      "type": "file"
+    },
+    {
+      "path": "lib/decode_jbig2data_x.cc",
+      "accessCount": 4,
+      "lastAccessed": 1777719413913,
+      "type": "file"
+    },
+    {
+      "path": "lib/decode_jbig2data.cc",
+      "accessCount": 4,
+      "lastAccessed": 1777719413930,
+      "type": "file"
+    },
+    {
+      "path": "cajs/AGENTS.md",
+      "accessCount": 2,
+      "lastAccessed": 1777717214908,
+      "type": "file"
+    },
+    {
+      "path": "utils.py",
+      "accessCount": 2,
+      "lastAccessed": 1777717920377,
+      "type": "file"
+    },
+    {
+      "path": "caj2pdf",
+      "accessCount": 2,
+      "lastAccessed": 1777717920421,
+      "type": "file"
+    },
+    {
+      "path": "cajparser.py",
+      "accessCount": 2,
+      "lastAccessed": 1777717920668,
+      "type": "file"
+    },
+    {
+      "path": "HNParsePage.py",
+      "accessCount": 2,
+      "lastAccessed": 1777717932797,
+      "type": "file"
+    },
+    {
+      "path": "batch-convert.sh",
+      "accessCount": 2,
+      "lastAccessed": 1777717932952,
+      "type": "file"
+    },
+    {
+      "path": "lib/AGENTS.md",
+      "accessCount": 2,
+      "lastAccessed": 1777717964685,
+      "type": "file"
+    },
+    {
+      "path": "lib/bin/AGENTS.md",
+      "accessCount": 2,
+      "lastAccessed": 1777717968510,
+      "type": "file"
+    },
+    {
+      "path": "CMakePresets.json",
+      "accessCount": 2,
+      "lastAccessed": 1777724424295,
+      "type": "file"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "accessCount": 2,
+      "lastAccessed": 1777724424452,
+      "type": "file"
+    },
+    {
+      "path": "requirements.txt",
+      "accessCount": 1,
+      "lastAccessed": 1777717086685,
+      "type": "file"
+    },
+    {
+      "path": "AGENTS.md",
+      "accessCount": 1,
+      "lastAccessed": 1777717200895,
+      "type": "file"
+    },
+    {
+      "path": "pyproject.toml",
+      "accessCount": 1,
+      "lastAccessed": 1777717933004,
+      "type": "file"
+    },
+    {
+      "path": ".python-version",
+      "accessCount": 1,
+      "lastAccessed": 1777717986419,
+      "type": "file"
+    },
+    {
+      "path": "lib/JBigDecode.cc",
+      "accessCount": 1,
+      "lastAccessed": 1777719237004,
+      "type": "file"
+    },
+    {
+      "path": "cmake/toolchain-mingw-w64-x86_64.cmake",
+      "accessCount": 1,
+      "lastAccessed": 1777720347721,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
